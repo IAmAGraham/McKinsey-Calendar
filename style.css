@@ -1,15 +1,4 @@
-body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i,dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, section, summary,
-time, audio  {
+body, div, span, h1, h2, h3, h4, h5, h6, p {
   margin: 0;
   padding: 0;
   border: 0;
@@ -18,6 +7,10 @@ time, audio  {
   vertical-align: baseline;
   font-family: 'Montserrat', sans-serif;
   color: #D1D1D1;
+}
+
+.padding {
+  padding-bottom: 20px;
 }
 
 .container {
@@ -45,7 +38,7 @@ time, audio  {
 }
 
 .days {
-  height: 720px;
+  height: 740px;
   width: 620px;
   padding: 0px 10px;
   background-color: #F0F0F0;
@@ -61,15 +54,17 @@ time, audio  {
   border-width: 1px;
   border-left-width: 5px;
   border-color: #D1D1D1;
-  border-left-color: #003399;
+  border-left-color: #006699;
   padding-left: 10px;
   padding-top: 5px;
   position: absolute;
   font-size: 0.5em;
   box-sizing: border-box;
+  padding-right: 5px;
+  margin-right: 5px;
 }
 
 .event .title {
-  color: #003399;
+  color: #006699;
   font-size: 200%;
 }

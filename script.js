@@ -11,8 +11,7 @@ var makeEvent = (height, top, left, units) => {
   let event = document.createElement("DIV");
   event.className = "event";
   event.innerHTML = 
-  "<span class='title'> Sample Item </span> \
-  <br><span class='location'> Sample Location </span>";
+  "<span class='title'> Sample Item </span> <br><span class='location'> Sample Location </span>";
 
   
   event.style.width = (widthOfContainer/units) + "px";

@@ -1,10 +1,11 @@
 const events = [ 
-    {start: 30, end: 160}, 
-    {start: 540, end: 600}, 
-    {start: 560, end: 620}, 
-    {start: 610, end: 670} ];
+    {start: 50, end: 180}, 
+    {start: 550, end: 625}, 
+    {start: 580, end: 650}, 
+    {start: 630, end: 710} ];
 
 day(events);
+
 
 function seededEvents (e) {
   let events = [];
